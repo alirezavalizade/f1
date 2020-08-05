@@ -14,7 +14,7 @@
     "start": "next start",
     "lint-fix": "eslint --fix . --ext .js",
     "test": "jest --watch",
-    "test:ci": "jest --ci",
+    "test:ci": "jest --ci --coverage",
     "export": "next export",
     "deploy": "yarn build && yarn export",
     "codecov": "cat ./coverage/lcov.info | ./node_modules/.bin/codecov --pipe"
