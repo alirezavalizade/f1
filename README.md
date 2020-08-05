@@ -18,6 +18,9 @@
         <a href="https://app.netlify.com/sites/determined-franklin-e791f1/deploys">
             <img src="https://api.netlify.com/api/v1/badges/60bb490d-52e3-4069-87e2-9f346c657cfa/deploy-status" alt="Netlify Status" />
       </a>
+      <a href="https://codecov.io/gh/alirezavalizade/f1">
+        <img src="https://codecov.io/gh/alirezavalizade/f1/branch/master/graph/badge.svg" />
+      </a>
   </sup>
   <br />
   <br />
