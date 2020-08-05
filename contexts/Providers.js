@@ -6,12 +6,16 @@ import { theme, globalStyles } from '@theme';
 import { SWRConfig } from 'swr';
 import { swrConfig } from '@client/index';
 
+import { AppProvider } from './AppContext';
+
 const Providers = ({ children }) => {
   return (
     <ThemeProvider theme={theme}>
       <CSSReset />
       <Global styles={globalStyles} />
-      <SWRConfig value={swrConfig}>{children}</SWRConfig>
+      <SWRConfig value={swrConfig}>
+        <AppProvider>{children}</AppProvider>
+      </SWRConfig>
     </ThemeProvider>
   );
 };
